@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+
+
+
+
+        .master{
+          padding: 0px 20px;
+        }
+        .common{
+             width: 302px;
+            height: 195px;
+        }
+
+        .box{
+           
+            background-image: url(./img/office-620822_1280\ \(2\).jpg);
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+            float: left;
+            margin: 10px;
+            
+        }
+
+        .overflow{
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            top: -195px;
+            left: 0px;
+            transition-property: all;
+            transition-duration: 0.4s;
+            transition-timing-function: ease-in-out;
+            
+        }
+
+
+        .box:hover .overflow{
+            top: 0px;
+        }
+
+        .common > a{
+            color: rgb(47, 116, 175);
+            width: 40px;
+            height: 40px;
+            display:inline-block;
+            background: white;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 40px;
+            position: absolute;
+            top: 72.5px;
+            left: 109.5px;
+        }
+
+        .banchor{
+            left:155.5px !important;
+        }
+
+
+
+
+
+        .overflow2{
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            top: 0px;
+            left: -302px;
+            transition-property: all;
+            transition-duration: 0.4s;
+            transition-timing-function: ease-in-out;
+            
+        }
+
+
+        .box:hover .overflow2{
+            left: 0px;
+        }
+
+
+
+
+        .overflow3{
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            top: 0px;
+            left: 302px;
+            transition-property: all;
+            transition-duration: 0.4s;
+            transition-timing-function: ease-in-out;
+            
+        }
+
+
+        .box:hover .overflow3{
+            left: 0px;
+        }
+
+
+        .overflow4{
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            top: 195px;
+            left: 0px;
+            transition-property: all;
+            transition-duration: 0.4s;
+            transition-timing-function: ease-in-out;
+            
+        }
+
+
+        .box:hover .overflow4{
+            top: 0px;
+        }
+
+
+
+
+        .overflow5{
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            left: 0px;
+            opacity: 0;
+            transition-property: all;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+          
+        }
+
+        .box:hover .overflow5{
+            opacity: 1;
+        }
+
+        #a5a{
+        left: 89.5px;
+        }
+
+        #a5b{
+            left:175.5px !important ;
+        }
+
+
+        .box:hover > .overflow5 #a5a{
+            left: 109.5px !important;
+        }
+
+        .box:hover > .overflow5 #a5b{
+            left: 155.5px !important;
+        }
+
+        #a5a,#a5b{
+            transition: all 0.2s linear;
+        }
+
+      
+
+      
+     
+
+       
+    </style>
+</head>
+<body>
+
+    <div class="master">
+    <div class="common box">
+        <div class="common overflow">
+            <a  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+    <div class="common box">
+        <div class="common  overflow2">
+            <a  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+    <div class="common box">
+        <div class="common  overflow3">
+            <a  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+    
+    <div class="common box">
+        <div class="common  overflow4">
+            <a  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
+
+    <div class="common box">
+        <div class="common  overflow5">
+            <a  href="" id="a5a"><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a class="banchor" id="a5b" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

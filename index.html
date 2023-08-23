@@ -160,8 +160,222 @@
         }
 
       
+        .overflow6{
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            left: 0px;
+            opacity: 0;
+            transition-property: all;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+            transform: scale(1.2);
+        }
 
+        .overflow6:hover{
+            transform: scale(1);
+            opacity: 1;
+        }
+            
+
+
+       
       
+
+        #a2b{
+            transform: scale(0);
+            transition: all 0.2s linear;
+       
+           
+        }
+
+        .box:hover #a2b{
+            transform: scale(1);
+        }
+
+        #a2a{
+            transform-origin: 46px center;
+            transform: rotatez(0deg) scale(0);
+            transition: all 0.2s linear;
+        }
+       
+        .box:hover #a2a{
+            transform: rotateZ(360deg) scale(1)
+        }
+
+
+
+        #a3a{
+            transform-origin: -160px center;
+            transform: rotateZ(180deg);
+            transition: all 0.2s linear;
+        }
+
+        #a3b{
+            transform-origin: 160px center;
+            transform: rotateZ(180deg);
+            transition: all 0.2s linear;
+        }
+
+        .box:hover #a3a , .box:hover #a3b{
+                transform-origin: 0px center;
+                transform: rotateZ(0deg);
+        }
+
+
+
+
+
+
+
+        #a4a{
+            transform-origin: -160px center;
+            transform: rotateZ(-180deg);
+            transition: all 0.2s linear;
+        }
+
+        #a4b{
+            transform-origin: 160px center;
+            transform: rotateZ(-180deg);
+            transition: all 0.2s linear;
+        }
+
+        .box:hover #a4a , .box:hover #a4b{
+                transform-origin: 0px center;
+                transform: rotateZ(0deg);
+        }
+
+
+
+
+        
+        
+
+        #a5a{
+            left: -160px;
+            transition: all 0.2s linear;
+        }
+
+        #a5b{
+            left: 333px !important;
+            transition: all 0.2s linear;
+        }
+
+        .box:hover #a5a{
+            left: 109.5px;
+        }
+
+        .box:hover #a5b{
+            left: 155.5px !important ;
+        }
+
+
+
+
+
+        .overflow11{
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            left: 0px;
+            opacity: 0;
+            transition: all 0.4s linear;
+        }
+
+        .overflow11:hover{
+            
+            opacity: 1;
+            
+        }
+            
+
+
+
+        #a6a,#a6b{
+            border-radius: 0px;
+            transition: all 0.3s linear;
+        }
+
+        .box:hover #a6a, .box:hover #a6b{
+            border-radius: 40px;
+        }
+
+
+        #a7a,#a7b{
+            border-radius: 0px;
+            transform: rotateZ(0deg);
+            transition: all 0.3s linear;
+        }
+
+        .box:hover #a7a, .box:hover #a7b{
+            border-radius: 40px;
+            transform: rotateZ(360deg);
+        }
+
+
+        #a8a,#a8b{
+            border-radius: 0px;
+            transform: rotateZ(0deg);
+            transition: all 0.3s linear;
+        }
+
+        .box:hover #a8a, .box:hover #a8b{
+            border-radius: 0px;
+            transform: rotateZ(360deg);
+        }
+
+
+        
+        #a9a,#a9b{
+            border-radius: 0px;
+            transform: rotateZ(0deg);
+            transition: all 0.3s linear;
+        }
+
+        .box:hover #a9a, .box:hover #a9b{
+            border-radius: 0px;
+            transform: rotateZ(-360deg);
+        }
+  
+
+
+        #a10a,#a10b{
+          
+            transform: scale(2);
+            transition: all 0.2s linear;
+        }
+
+        .box:hover #a10a, .box:hover #a10b{
+            transform: scale(1);
+          
+        }
+  
+
+        
+        #a11a{
+          
+            transform: scale(0);
+          transition: all 0.1s cubic-bezier(0,2.02,.66,1.27) 0s;
+      }
+
+      #a11b{
+        transform: scale(0);
+          transition: all 0.1s cubic-bezier(0,2.02,.66,1.27) 0.2s;
+      }
+
+      .box:hover #a11a{
+        transform: scale(1);
+        
+      }
+
+      .box:hover #a11b{
+        transform: scale(1);
+
+      }
+
+  
+  
+  
+     
+  
      
 
        
@@ -210,6 +424,105 @@
             <a class="banchor" id="a5b" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
         </div>
     </div>
+
+
+
+    <div class="common box">
+        <div class="common  overflow6">
+            <a  href="" ><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a class="banchor"  href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
+
+    <div class="common box">
+        <div class="common overflow6  overflow7">
+            <a id="a2a"  href="" ><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a2b" class="banchor"  href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+    <div class="common box">
+        <div class="common overflow6 overflow8  ">
+            <a id="a3a"   href="" ><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a3b"  class="banchor"  href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+    <div class="common box">
+        <div class="common overflow6 overflow9 ">
+            <a id="a4a"   href="" ><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a4b"  class="banchor"  href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
+    <div class="common box">
+        <div class="common  overflow6 overflow10">
+            <a id="a5a"  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a5b" class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
+    <div class="common box">
+        <div class="common   overflow11">
+            <a id="a6a"  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a6b" class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
+
+    <div class="common box">
+        <div class="common   overflow11 overflow12">
+            <a id="a7a"  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a7b" class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+    <div class="common box">
+        <div class="common   overflow11 overflow13">
+            <a id="a8a"  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a8b" class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+    <div class="common box">
+        <div class="common   overflow11 overflow14">
+            <a id="a9a"  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a9b" class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+    <div class="common box">
+        <div class="common   overflow11 overflow15">
+            <a id="a10a"  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a10b" class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
+    
+    <div class="common box">
+        <div class="common   overflow11 overflow16">
+            <a id="a11a"  href=""><i class="fa-sharp fa-regular fa-link"></i></a>
+            <a id="a11b" class="banchor" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </div>
+
+
+
 
 
 
